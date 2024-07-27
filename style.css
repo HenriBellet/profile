@@ -1,0 +1,62 @@
+h1 {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  color: blue;
+}
+
+body {
+  font-size: 19px;
+}
+
+h2 {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  color: cyan;
+  font-size: 30px;
+}
+
+a:hover {
+  color: purple;
+}
+
+a {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.container {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border: 20px solid lightgrey;
+  box-shadow: 2px 2px 3px gray;
+}
+
+#Raccoon {
+  width: 400px;
+  border-radius: 8px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
